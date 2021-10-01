@@ -8,7 +8,7 @@ public class ArrayTest{
         System.out.print(anArray);
         System.out.println("part 2:");
         for (int y = 0; y < 11; y++){
-		System.out.print(anArray[x]);
+		System.out.print(anArray[y] + " ");
 	}
    }
 }

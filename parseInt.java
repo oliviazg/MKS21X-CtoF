@@ -8,7 +8,7 @@ public class parseInt{
     int ans = 0;
     for (int i = 0; i < s.length(); i++){
       int digit = s.charAt(i);
-      ans += (int)digit * Math.pow(10, s.length() - 1);
+      ans += (((int)digit) * Math.pow(10, s.length() - i - 1));
     }
     return ans;
   }

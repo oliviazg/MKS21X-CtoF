@@ -5,10 +5,12 @@ public class parseInt{
   public static int stringToInt(String s){
     //return the value of Integer.parseInt(s) but do it yourself!
     //Do not use any built in parse methods.
-    int ans = -1;
+    int ans = 0;
     for (int i = 0; i < s.length(); i++){
-      digit = se[i];
+      int digit = s.charAt(i);
       ans += (int)digit * Math.pow(10, s.length() - 1);
+    }
+    return ans;
   }
   public static void main (String[] args){
     String tester = "9123";
